@@ -10,7 +10,7 @@ name_order = {
     'reference': 0,
     'ours': 1,
     'LIA': 2,
-    'PIR': 3,
+    'PPIR': 3,
     'MRAA':4,
     'FOMM':5,
     # 添加更多名字和对应的顺序...
@@ -110,18 +110,21 @@ for key,lis in video_all.items():
 
     '''
     for idx,path_name in enumerate(lis):
+        
         if idx==0:
             method_name="Reference"
         else:
             method_name="Method"+str(idx) 
         if idx==3:
             print(path_name)  
+        if idx==6:
+            continue  
         html_code += f'''
           
                 <td halign="center" style="word-wrap: break-word;" valign="top">
                     <p>
                         <a>
-                            <video id='C{case_id}_{idx}' muted loop="loop" src="{path_name}" style="width: 200px; height: auto;"></video>
+                            <video id='C{case_id}_{idx+1}' muted loop="loop" src="{path_name}" style="width: 200px; height: auto;"></video>
                         </a><br>
                         <p>{method_name}</p>
                     </p>
@@ -182,7 +185,7 @@ for key,lis in video_all2.items():
                 <td halign="center" style="word-wrap: break-word;" valign="top">
                     <p>
                         <a>
-                            <video id='C{case_id}_{idx}' muted loop="loop" src="{path_name}" style="width: 200px; height: auto;"></video>
+                            <video id='C{case_id}_{idx+1}' muted loop="loop" src="{path_name}" style="width: 200px; height: auto;"></video>
                         </a><br>
                         <p>{method_name}</p>
                     </p>
@@ -212,7 +215,7 @@ html_code += '''
 
     <script>
         function playPause(name) {
-            for (var i = 1; i <= 7; i++) {
+            for (var i = 1; i <= 6; i++) {
                 var myVideo = document.getElementById(name + i);
                 if (myVideo.paused)
                     myVideo.play();
@@ -227,5 +230,5 @@ html_code += '''
 '''
 
 # 将生成的HTML代码写入文件
-with open('video_gallery.html', 'w') as file:
+with open('index.html', 'w') as file:
     file.write(html_code)
