@@ -27,8 +27,8 @@ def sort_by_first_letter(path):
 
 
 
-video_list1=glob.glob("C:/Users/WY/Desktop/user_study_demo/user_study/*")
-video_list2=glob.glob("C:/Users/WY/Desktop/user_study_demo/user_study_exp/*")
+video_list1=glob.glob("./videos/user_study/*")
+video_list2=glob.glob("videos/user_study_exp/*")
 
 video_all={}
 input_all={}
