@@ -1,0 +1,1549 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>user_study</title>
+    <style>
+    body {
+      text-align: center; /* 居中文本 */
+    }
+    h1 {
+      font-size: 48px; /* 设置标题字体大小 */
+    }
+    .line-break {
+    margin-bottom: 40px;
+    }
+    </style>
+</head>
+<body>
+    <h1>user study 1</h1>
+    <h3>Our method works well on the male and female Portrait-to-Caricature Translation. The first col is input portrait video.这里需要你写描述</h3>
+    <!-- <h3>Click the video to view it in high resolution.</h3> -->
+
+    <table border="6" style="table-layout: fixed;">      <!-- 设置几个case -->
+
+            
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (1)\art_greenvase_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case1</p>
+                    <button onclick="playPause('C1_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (1)\reference (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (1)\ours (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (1)\LIA (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (1)\PIR (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (1)\MRAA (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (1)\FOMM (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (10)\art_vangogh_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case2</p>
+                    <button onclick="playPause('C2_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (10)\reference (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (10)\ours (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (10)\LIA (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (10)\PIR (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (10)\MRAA (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (10)\FOMM (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (2)\art_monalisa_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case3</p>
+                    <button onclick="playPause('C3_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (2)\reference (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (2)\ours (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (2)\LIA (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (2)\PIR (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (2)\MRAA (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (2)\FOMM (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (3)\art_NikolaosLytras_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case4</p>
+                    <button onclick="playPause('C4_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (3)\reference (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (3)\ours (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (3)\LIA (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (3)\PIR (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (3)\MRAA (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (3)\FOMM (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (4)\art_picasso1_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case5</p>
+                    <button onclick="playPause('C5_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (4)\reference (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (4)\ours (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (4)\LIA (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (4)\PIR (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (4)\FOMM (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (4)\MRAA.mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (5)\art_Shutterstock1c_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case6</p>
+                    <button onclick="playPause('C6_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (5)\reference (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (5)\ours (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (5)\LIA (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (5)\PIR (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (5)\MRAA (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (5)\FOMM (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (6)\art_Shutterstock5_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case7</p>
+                    <button onclick="playPause('C7_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (6)\reference (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (6)\ours (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (6)\LIA (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (6)\PIR (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (6)\MRAA (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (6)\FOMM (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (7)\art_Shutterstock7_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case8</p>
+                    <button onclick="playPause('C8_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (7)\reference (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (7)\ours (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (7)\LIA (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (7)\PIR (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (7)\MRAA (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (7)\FOMM (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (8)\art_Shutterstock9_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case9</p>
+                    <button onclick="playPause('C9_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (8)\reference (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (8)\ours ().mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (8)\LIA (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (8)\PIR (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (8)\MRAA (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (8)\FOMM (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  <tr>
+
+            <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study\case (9)\art_Shutterstock24_ani_7.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case10</p>
+                    <button onclick="playPause('C10_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (9)\reference (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (9)\ours (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (9)\LIA (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (9)\PIR (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (9)\MRAA (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study\case (9)\FOMM (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>     
+  </table> 
+<div class="line-break"></div>
+
+<h1>user study 2</h1>
+
+<h3>Our method works well on the male and female Portrait-to-Caricature Translation. The first col is input portrait video.写描述 标准</h3>
+<h3>  </h3>
+      <table border="6" style="table-layout: fixed;">      <!-- 设置几个case -->  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (1)\art_greenvase_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case1</p>
+                    <button onclick="playPause('C1_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (1)\reference (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (1)\ours (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (1)\LIA (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (1)\PIR (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (1)\MRAA (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C1_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (1)\FOMM (1).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (10)\art_vangogh_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case2</p>
+                    <button onclick="playPause('C2_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (10)\reference (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (10)\ours (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (10)\LIA (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (10)\PIR (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (10)\MRAA (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C2_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (10)\FOMM (10).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (2)\art_monalisa_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case3</p>
+                    <button onclick="playPause('C3_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (2)\reference (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (2)\ours (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (2)\LIA (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (2)\PIR (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (2)\MRAA (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C3_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (2)\FOMM (2).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (3)\art_NikolaosLytras_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case4</p>
+                    <button onclick="playPause('C4_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (3)\reference (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (3)\ours (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (3)\LIA (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (3)\PIR (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (3)\MRAA (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C4_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (3)\FOMM (3).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (4)\art_picasso1_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case5</p>
+                    <button onclick="playPause('C5_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (4)\reference (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (4)\ours (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (4)\LIA (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (4)\PIR (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (4)\MRAA (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C5_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (4)\FOMM (4).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (5)\art_Shutterstock1c_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case6</p>
+                    <button onclick="playPause('C6_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (5)\reference (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (5)\ours (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (5)\LIA (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (5)\PIR (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (5)\MRAA (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C6_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (5)\FOMM (5).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (6)\art_Shutterstock5_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case7</p>
+                    <button onclick="playPause('C7_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (6)\reference (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (6)\ours (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (6)\LIA (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (6)\PIR (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (6)\MRAA (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C7_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (6)\FOMM (6).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (7)\art_Shutterstock7_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case8</p>
+                    <button onclick="playPause('C8_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (7)\reference (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (7)\ours (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (7)\LIA (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (7)\PIR (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (7)\MRAA (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C8_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (7)\FOMM (7).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (8)\art_Shutterstock9_ani.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case9</p>
+                    <button onclick="playPause('C9_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (8)\reference (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (8)\ours (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (8)\LIA (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (8)\PIR (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (8)\MRAA (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C9_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (8)\FOMM (8).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+                <p>
+                    <a>
+                        <img src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (9)\art_Shutterstock24_ani_7.png" alt="My Image" width="200px" height="auto"> 
+                    </a><br>
+                    <p>Input</p>
+                </p>
+        </td>
+        <td style="text-align: center; vertical-align: middle; word-wrap: break-word;" valign="middle">
+                    <p style="color: red; font-weight: bold;font-size: 30px;">Case10</p>
+                    <button onclick="playPause('C10_')">Play/Pause</button>
+        </td>
+
+    
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_0' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (9)\reference (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Reference</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_1' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (9)\ours (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method1</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_2' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (9)\LIA (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method2</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_3' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (9)\PIR (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method3</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_4' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (9)\MRAA (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method4</p>
+                    </p>
+                </td>
+        
+          
+                <td halign="center" style="word-wrap: break-word;" valign="top">
+                    <p>
+                        <a>
+                            <video id='C10_5' muted loop="loop" src="C:/Users/WY/Desktop/user_study_demo/user_study_exp\case (9)\FOMM (9).mp4" style="width: 200px; height: auto;"></video>
+                        </a><br>
+                        <p>Method5</p>
+                    </p>
+                </td>
+          </tr>  </table>
+    </table>
+
+    <script>
+        function playPause(name) {
+            for (var i = 1; i <= 7; i++) {
+                var myVideo = document.getElementById(name + i);
+                if (myVideo.paused)
+                    myVideo.play();
+                else
+                    myVideo.pause();
+            }
+        }
+    </script>
+
+</body>
+</html>
